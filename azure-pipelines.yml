@@ -6,10 +6,9 @@ strategy:
     linux:
       operatingSystem: 'ubuntu-latest'
     mac:
-      operatingSystem: 'macos-latest'
-    windows:
+      operatingSystem: 'macos-latest' 
+      windows:
       operatingsystem: 'windows-latest'
-
 pool:
   vmImage: $(operatingSystem)
 
